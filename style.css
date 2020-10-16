@@ -1,0 +1,40 @@
+body{
+	background: lightgray;
+	margin: 0;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: white;
+	padding: 10px;
+}
+header h1{
+	margin: 0;
+}
+div.post{
+	background: white;
+	margin-top: 10px;
+}
+div.post img{
+	width: 100%;
+}
+div.post h2{
+	float: left;
+	width: 80%;
+}
+div.post span{
+	float: right;
+	width: 16%;
+	text-align: right;
+	padding: 5px;
+	color: gray;
+}
+div.post h2, div.post p{
+	padding: 5px;
+	margin: 0;
+}
+div.container{
+	width: 600px;
+	margin: auto;
+}
